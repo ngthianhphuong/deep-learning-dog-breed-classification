@@ -1,9 +1,10 @@
 # deep-learning-dog-breed-classification
 Core algorithm for application that classifies dog images according to its breed and outputs the most resembling breed when a human image is provided.
 
+Expected outputs:
 
-![image1](./images/sample_output2.jpg)
-![image2](./images/sample_output1.jpg)
+![image1](./images/sample_output2.JPG?raw=true "Output Example 1")
+![image2](./images/sample_output1.JPG?raw=true "Output Example 2")
 
 ## Installation
 
@@ -25,13 +26,13 @@ Two datasets are available:
 
 An example of dog image:
 
-[dog image example]: ./images/Curly-coated_retriever_03896.jpg "Dog Image Example"
+![dog image example](./images/Curly-coated_retriever_03896.jpg?raw=true "Dog Image Example") 
 
 - Second dataset contains 13,233 human images. It will be useful to test human detector function as well as the final algorithm’s. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`. If you are using a Windows machine, use [7zip](http://www.7-zip.org/) to extract the folder. 
 
 An example of human image:
 
-[human image example]: ./images/Prince_Charles_0001.jpg "Human Image Example"
+![human image example](./images/Prince_Charles_0001.jpg?raw=true "Human Image Example")
 
 ## Project Motivation
 
@@ -59,8 +60,12 @@ Summarize end-to-end problem solution. Propose some improvement ways.
 
 ## Result summary
 The best model reports approx. 80% of accuracy. It gives expected answer when a non-dog-neither-human image is provided. It performs well on almost dog images, though it fails to work on some 'challenging' dog breed images. The outputs for human images are quite convincing.
+
 The full project report is available in this [repo](report.pdf) and in this [Medium blog post](https://medium.com/@fnguyen/having-fun-learning-cnns-example-of-dog-breed-prediction-applicable-to-human-images-59b0700462b5?sk=2eaf3d30772f33b95c792ff486929779).
 
+![output](./images/sample_output4.JPG?raw=true "Output")
+
+
 ## Licensing, Authors, Acknowledgements
-The dataset was provided by Udacity as part of its [Data Scientist Nanodegree program](https://www.udacity.com/course/data-scientist-nanodegree--nd025). Dataset credit belongs to [IBM Watson Studio](https://dataplatform.cloud.ibm.com/).
+The dataset was provided by Udacity as part of its [Data Scientist Nanodegree program](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
 A LICENSE file is added in this repo to state clearly its licence.
