@@ -1,10 +1,9 @@
 # deep-learning-dog-breed-classification
 Core algorithm for application that classifies dog images according to its breed and outputs the most resembling breed when a human image is provided.
 
-[//]: # (Image References)
 
-[image1]: ./images/sample_output2.jpg "Sample Output 1"
-[image2]: ./images/sample_output1.jpg "Sample Output 2"
+![image1](./images/sample_output2.jpg)
+![image2](./images/sample_output1.jpg)
 
 ## Installation
 
