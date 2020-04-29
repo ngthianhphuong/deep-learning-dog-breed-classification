@@ -26,13 +26,14 @@ Two datasets are available:
 
 An example of dog image:
 
-![dog image example](./images/Curly-coated_retriever_03896.jpg?raw=true "Dog Image Example") 
+<img src="./images/Curly-coated_retriever_03896.jpg" width=600>
 
 - Second dataset contains 13,233 human images. It will be useful to test human detector function as well as the final algorithm’s. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip). Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`. If you are using a Windows machine, use [7zip](http://www.7-zip.org/) to extract the folder. 
 
 An example of human image:
 
-![human image example](./images/Prince_Charles_0001.jpg?raw=true "Human Image Example")
+<img src="./images/Prince_Charles_0001.jpg">
+
 
 ## Project Motivation
 
@@ -63,7 +64,7 @@ The best model reports approx. 80% of accuracy. It gives expected answer when a 
 
 The full project report is available in this [repo](report.pdf) and in this [Medium blog post](https://medium.com/@fnguyen/having-fun-learning-cnns-example-of-dog-breed-prediction-applicable-to-human-images-59b0700462b5?sk=2eaf3d30772f33b95c792ff486929779).
 
-![output](./images/sample_output4.JPG?raw=true "Output")
+<img src="./images/sample_output4.JPG" width=600>
 
 
 ## Licensing, Authors, Acknowledgements
