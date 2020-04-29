@@ -3,8 +3,8 @@ Core algorithm for application that classifies dog images according to its breed
 
 Expected outputs:
 
-![image1](./images/sample_output2.JPG?raw=true "Output Example 1")
-![image2](./images/sample_output1.JPG?raw=true "Output Example 2")
+<img src="./images/sample_output2.JPG" width=600>
+<img src="./images/sample_output1.JPG" width=600>
 
 ## Installation
 
